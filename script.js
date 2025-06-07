@@ -50,7 +50,7 @@ addBlogForm.addEventListener("submit", function (e) {
 
     main.appendChild(newPost);
     attachEventListeners(newPost);
-    this.reset();
+    addBlogForm.reset();
   }
 });
 
